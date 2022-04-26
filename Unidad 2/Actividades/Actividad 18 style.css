@@ -1,0 +1,19 @@
+ul.vertical{
+  margin:0;
+  padding:0;
+  width:200px;
+  background-color:#f1f1f1;
+}
+ul.vertical li a{
+  display:block;
+  color:#000000;
+  padding:8px 16px;
+  text-decoration:none;
+  border-width:2px;
+  border-style:solid;
+  border-color:#000000;
+}
+ul.vertical li a:hover{
+  background-color:#5c5c5c;
+  color:#ffffff;
+}

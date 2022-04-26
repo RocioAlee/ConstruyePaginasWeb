@@ -1,0 +1,22 @@
+ul.horizontal{
+  margin:0;
+  padding:0;
+  background-color:#416fb9;
+  overflow:hidden;
+}
+ul.horizontal li{
+  float:left;
+  display:block;
+}
+ul.horizontal li a{
+  color:#000000;
+  text-align:center;
+  text-decoration:none;
+  border-right:2px solid;
+  border-color:#000000;
+  padding:14px 16px;
+}
+ul.horizontal li a:hover{
+  background-color:#153c79;
+  color:#ffffff;
+}
