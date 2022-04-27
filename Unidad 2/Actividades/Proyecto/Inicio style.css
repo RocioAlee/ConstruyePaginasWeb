@@ -1,0 +1,35 @@
+h1{
+  text-align:center;
+  color:#ffffff;
+  background-color:#a22245;
+  padding-top:10px;
+  padding-bottom:10px;
+}
+ul.horizontal{
+  margin:0;
+  padding:0;
+  padding-top:5px;
+  padding-bottom:5px;
+  background-color:#a22245;
+  overflow:hidden;
+  display: flex;
+  justify-content:center;
+  align-item:center;
+}
+ul.horizontal li{
+  float:left;
+  display:block;
+}
+ul.horizontal li a{
+  color:#ffffff;
+  text-align:center;
+  text-decoration:none;
+  border-right:2px solid;
+  border-color:#ffffff;
+  padding:14px 16px;
+}
+ul.horizontal li a:hover{
+  background-color:#601629;
+  color:#adadad;
+  text-decoration:underline;
+}
